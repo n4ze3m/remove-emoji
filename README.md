@@ -33,10 +33,10 @@ Happy 😍 to recieve or provide contributions related to this package.
 
 ## Features and bugs 🐛
 
-Please file feature requests and bugs at the [issue tracker](https://github.com/BuckthornInc/remove-emoji/issues).
+Please file feature requests and bugs at the [issue tracker](https://github.com/buckthorndev/remove-emoji/issues).
 
 ## Contact 📧
 
 if you have any questions , feel free to wite us on
 
-+ [Twitter](https://twitter.com/buckthorninc)
++ [Twitter](https://twitter.com/buckthordev)
