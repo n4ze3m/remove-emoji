@@ -1,3 +1,10 @@
+## 0.0.5
+
++ bug fixed
++ dart pub issue fixed
++ typo fixed
++ updated emoji regex
+
 ## 0.0.4
 
 + bug fixed

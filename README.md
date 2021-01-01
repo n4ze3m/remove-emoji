@@ -39,4 +39,4 @@ Please file feature requests and bugs at the [issue tracker](https://github.com/
 
 if you have any questions , feel free to wite us on
 
-+ [Twitter](https://twitter.com/buckthordev)
++ [Twitter](https://twitter.com/buckthorndev)

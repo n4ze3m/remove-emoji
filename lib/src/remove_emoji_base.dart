@@ -12,7 +12,6 @@ class RemoveEmoji {
   ///
   /// print('🏳️🏴🏴‍☠️🏁hi🚩🏳️‍🌈🏳️‍⚧🇺🇳'.removemoji);
   ///```
-  String removemoji(String text, [String word = '']) => text
-      .replaceAll(RegExp(r), word)
-      .trim();
+  String removemoji(String text, [String word = '']) =>
+      text.replaceAll(RegExp(r), word).trim();
 }
