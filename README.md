@@ -1,6 +1,6 @@
-<h1 align="center"> Remove Emoji 😢</h1>
+<h1 align="center">Remove Emoji 😢</h1>
 
-Dart or flutter package accurately replace/remove emojis in text 
+Dart package accurately replace/remove emojis in text 
 
 ## Usage 🤓
 
@@ -10,10 +10,10 @@ A simple usage example:
 import 'package:remove_emoji/remove_emoji.dart';
 
 void main() {
-  var rem = RemoveEmoji();
-  print(rem.removemoji(
+  var remove = RemoveEmoji();
+  print(remove.removemoji(
       '🤣h😌e🙄l😪l😓o😳🤔👨‍🦰🤶🏿 🧝‍♂️🍝🥘🌯🍦🥂🥂🎂🍰🧁🍨🍧😁w🤷‍♂️o😎r🤪l🤦‍♂️d🐸🤑😆😖🎉🍾🤟🤩😢🐭😡😍📧😄😔😇🧐😈🙁🤓🙂🥱'));
-  // or
+  // or use extension 🤓
   print(
       '🤣h😌e🙄l😪l😓o😳🤔👨‍🦰🤶🏿 🧝‍♂️🍝🥘🌯🍦🥂🥂🎂🍰🧁🍨🍧😁w🤷‍♂️o😎r🤪l🤦‍♂️d🐸🤑😆😖🎉🍾🤟🤩😢🐭😡😍📧😄😔😇🧐😈🙁🤓🙂🥱'
           .removemoji);
