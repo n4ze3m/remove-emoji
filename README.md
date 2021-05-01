@@ -10,14 +10,21 @@ A simple usage example:
 import 'package:remove_emoji/remove_emoji.dart';
 
 void main() {
+  var word = '🤣h😌e🙄l😪l😓o😳🤔👨‍🦰🤶🏿 🧝‍♂️🍝🥘🌯🍦🥂🥂🎂🍰🧁🍨🍧😁w🤷‍♂️o😎r🤪l🤦‍♂️d🐸🤑😆😖🎉🍾🤟🤩😢🐭😡😍📧😄😔😇🧐😈🙁🤓🙂🥱';
   var remove = RemoveEmoji();
-  print(remove.removemoji(
-      '🤣h😌e🙄l😪l😓o😳🤔👨‍🦰🤶🏿 🧝‍♂️🍝🥘🌯🍦🥂🥂🎂🍰🧁🍨🍧😁w🤷‍♂️o😎r🤪l🤦‍♂️d🐸🤑😆😖🎉🍾🤟🤩😢🐭😡😍📧😄😔😇🧐😈🙁🤓🙂🥱'));
+
+  //  with trim
+  print(remove.removemoji(word));
+
+  // without trim
+  print(remove.removemoji(word,'', false));
+
   // or use extension 🤓
-  print(
-      '🤣h😌e🙄l😪l😓o😳🤔👨‍🦰🤶🏿 🧝‍♂️🍝🥘🌯🍦🥂🥂🎂🍰🧁🍨🍧😁w🤷‍♂️o😎r🤪l🤦‍♂️d🐸🤑😆😖🎉🍾🤟🤩😢🐭😡😍📧😄😔😇🧐😈🙁🤓🙂🥱'
-          .removemoji);
-}
+
+  // with trim
+  print(word.removemoji);
+ // without trim
+ print(word.removemojiNoTrim);
 }
 ```
 *output*
