@@ -1,3 +1,7 @@
+## 0.0.6
+
++ ability to not trim when removing emojis (@CodeMelted)
+
 ## 0.0.5
 
 + bug fixed
