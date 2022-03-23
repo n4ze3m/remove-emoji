@@ -10,4 +10,7 @@ void main() {
           .removemoji);
   // other language
   print('5 rue des écoles. la quantiné 75000 Paris🤣🥂'.removemoji);
+  // get the regex string
+  // this function will help you to get the regex string and use it in your own code 
+  print(remove.getRegexString());
 }
