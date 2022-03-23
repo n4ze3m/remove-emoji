@@ -16,4 +16,12 @@ class RemoveEmoji {
       trimText
           ? text.replaceAll(RegExp(r), word).trim()
           : text.replaceAll(RegExp(r), word);
+
+  /// Get the emoji regex string
+  /// Returns a regex string
+  ///```dart
+  /// var remove = RemoveEmoji();
+  /// print(remove.getRegexString());
+  /// ```
+  String getRegexString() => r;
 }
