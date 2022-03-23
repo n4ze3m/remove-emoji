@@ -5,7 +5,7 @@ import 'package:remove_emoji/remove_emoji.dart';
 // Test Setup Stuff
 RemoveEmoji remove = RemoveEmoji();
 String testDataWithSpace =
-    ' 🤣h😌e🙄l😪l😓o😳🤔👨‍🦰🤶🏿 🧝‍♂️🍝🥘🌯🍦🥂🥂🎂🍰🧁🍨🍧😁w🤷‍♂️o😎r🤪l🤦‍♂️d🐸🤑😆😖🎉🍾🤟🤩😢🐭😡😍📧😄😔😇🧐😈🙁🤓🙂🥱 ';
+    ' 🤣h😌e🙄l😪l😓o😳🤔👨‍🦰🤶🏿 🧝‍♂️🍝🥘🌯🍦🥂🥂🎂🍰🧁🍨🍧😁w🤷‍♂️o😎r🤪l🤦‍♂️d🐸🤑😆😖🎉🍾🤟🤩😢🐭😡😍📧😄😔😇🧐😈🙁🤓🙂🥱🌬🌫🌨⛈⛈🌨 ';
 
 // ----------------------------------------------------------------------------
 // Actual Test

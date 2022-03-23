@@ -1,3 +1,9 @@
+## 0.0.7
+
++ new emoji unicode added
++ `getRegexString()` method added for getting the regex string
+
+
 ## 0.0.6
 
 + ability to not trim when removing emojis (@CodeMelted)
