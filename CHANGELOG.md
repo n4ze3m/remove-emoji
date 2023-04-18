@@ -1,3 +1,11 @@
+## 0.0.8
+
++ new emoji regex added which is more accurate
++ `removemoji` deprecated and replaced with `clean`
++ `removemojiNoTrim` deprecated and replaced with `removEmojiNoTrim`
++ `removemoji` deprecated and replaced with `removEmoji`
+
+
 ## 0.0.7
 
 + new emoji unicode added
