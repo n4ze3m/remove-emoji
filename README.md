@@ -1,6 +1,6 @@
 <h1 align="center">Remove Emoji 😢</h1>
 
-Dart package accurately replace/remove emojis in text. Remove-emoji heavily inspired by node package [emoji-regex](https://github.com/mathiasbynens/emoji-regex/).
+Dart package accurately replace/remove emojis in text. Remove-emoji heavily inspired by NodeJS package [emoji-regex](https://github.com/mathiasbynens/emoji-regex/).
 
 ## Usage 🤓
 
@@ -14,17 +14,17 @@ void main() {
   var remove = RemoveEmoji();
 
   //  with trim
-  print(remove.removemoji(word));
+  print(remove.clean(word));
 
   // without trim
-  print(remove.removemoji(word,'', false));
+  print(remove.clean(word,'', false));
 
   // or use extension 🤓
 
   // with trim
-  print(word.removemoji);
+  print(word.removEmoji);
  // without trim
- print(word.removemojiNoTrim);
+ print(word.removEmojiNoTrim);
 }
 ```
 
@@ -41,10 +41,10 @@ Happy 😍 to recieve or provide contributions related to this package.
 
 ## Features and bugs 🐛
 
-Please file feature requests and bugs at the [issue tracker](https://github.com/buckthorndev/remove-emoji/issues).
+Please file feature requests and bugs at the [issue tracker](https://github.com/n4ze3m/remove-emoji/issues).
 
 ## Contact 📧
 
 if you have any questions , feel free to wite us on
 
-- [Twitter](https://twitter.com/buckthorndev)
+- [Twitter](https://twitter.com/n4ze3m)
