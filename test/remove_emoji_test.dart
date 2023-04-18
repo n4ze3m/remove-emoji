@@ -10,23 +10,43 @@ String testDataWithSpace =
 // ----------------------------------------------------------------------------
 // Actual Test
 void main() {
-  group('removemoji Extension Tests', () {
+  group('clean Extension Tests', () {
     test('trimText = true (default) Validation', () {
-      expect(testDataWithSpace.removemoji, 'hello world');
+      expect(testDataWithSpace.removEmoji, 'hello world');
     });
 
     test('trimText = false (override) Validation', () {
-      expect(testDataWithSpace.removemojiNoTrim, ' hello world ');
+      expect(testDataWithSpace.removEmojiNoTrim, ' hello world ');
     });
   });
 
   group('RemoveEmoji Class Tests', () {
     test('trimText = true (default) Validation', () {
-      expect(remove.removemoji(testDataWithSpace), 'hello world');
+      expect(remove.clean(testDataWithSpace), 'hello world');
     });
 
     test('trimText = false (override) Validation', () {
-      expect(remove.removemoji(testDataWithSpace, '', false), ' hello world ');
+      expect(remove.clean(testDataWithSpace, '', false), ' hello world ');
+    });
+  });
+
+  group('Emoji 14 test', () {
+    test('testing 🌬🌫🌨⛈⛈🌨', () {
+      expect(remove.clean('testing 🌬🌫🌨⛈⛈🌨'), 'testing');
+    });
+
+    test('🫨 Oh wow', () {
+      expect(remove.clean('🫨 Oh wow', ''), 'Oh wow');
+    });
+  });
+
+  group('Emoji 15 test', () {
+    test('testing 🪭', () {
+      expect(remove.clean('testing 🪭'), 'testing');
+    });
+
+    test('nice 🫸 🌬🌫🌨⛈⛈🌨', () {
+      expect(remove.clean('nice 🫸 🌬🌫🌨⛈⛈🌨'), 'nice');
     });
   });
 }
