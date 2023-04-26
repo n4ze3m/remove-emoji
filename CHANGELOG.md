@@ -1,3 +1,8 @@
+## 0.0.9
+
++ `0.0.8` unfortunately remove chinese characters so new regex added to fix this issue
++ `0.0.9` won't support emoji 13 and above
+
 ## 0.0.8
 
 + new emoji regex added which is more accurate
