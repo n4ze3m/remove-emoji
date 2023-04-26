@@ -1,6 +1,6 @@
 name: remove_emoji
 description: Dart and flutter package accurately replace/remove emojis in text
-version: 0.0.8
+version: 0.0.9
 homepage: https://github.com/n4ze3m/remove-emoji
 
 environment:

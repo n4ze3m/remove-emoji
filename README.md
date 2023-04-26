@@ -2,7 +2,7 @@
 
 Dart package accurately replace/remove emojis in text. Remove-emoji heavily inspired by NodeJS package [emoji-regex](https://github.com/mathiasbynens/emoji-regex/).
 
-## Usage 🤓
+## Usage
 
 A simple usage example:
 
@@ -35,16 +35,10 @@ hello world
 hello world
 ```
 
-## Contribution 🤓
+## Contribution 
 
 Happy 😍 to recieve or provide contributions related to this package.
 
-## Features and bugs 🐛
+## Features and bugs 
 
 Please file feature requests and bugs at the [issue tracker](https://github.com/n4ze3m/remove-emoji/issues).
-
-## Contact 📧
-
-if you have any questions , feel free to wite us on
-
-- [Twitter](https://twitter.com/n4ze3m)
