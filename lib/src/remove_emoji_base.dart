@@ -37,6 +37,12 @@ class RemoveEmoji {
   ///```
   String clean(String text, [String word = '', bool trimText = true]) =>
       trimText
-          ? text.replaceAll(RegExp(r), word).trim()
+          ? text
+              .replaceAll(
+                  RegExp(
+                    r,
+                  ),
+                  word)
+              .trim()
           : text.replaceAll(RegExp(r), word);
 }

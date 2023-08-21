@@ -1,3 +1,7 @@
+## 0.0.10
+
++ new emoji unicode added
+
 ## 0.0.9
 
 + `0.0.8` unfortunately remove chinese characters so new regex added to fix this issue
